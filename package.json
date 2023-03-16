@@ -1,0 +1,36 @@
+{
+  "name": "vue2-vuetify2-pinia-template",
+  "browserslist": [
+    "chrome >= 50",
+    "edge >= 18",
+    "safari >= 10",
+    "Firefox >= 60",
+    "IOS >= 10 ",
+    "not dead"
+  ],
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "publish": "node ./scripts/publish.mjs"
+  },
+  "dependencies": {
+    "axios": "^1.3.4",
+    "mitt": "^3.0.0",
+    "pinia": "^2.0.33",
+    "vue": "2",
+    "vuetify": "^2.6.14",
+    "whatwg-fetch": "^3.6.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-legacy": "^4.0.2",
+    "@vitejs/plugin-vue2": "^2.2.0",
+    "nodejs-auto-publish": "^1.0.42",
+    "sass": "^1.56.1",
+    "unplugin-vue-components": "^0.24.1",
+    "vite": "^4.1.0"
+  }
+}
